@@ -3,6 +3,9 @@ body {
 
 }
 
+/* ---------- Media width above 900 ---------------------- */
+@media (min-width: 900px) {
+
 .up {
     background-color: #1F2937;
     
@@ -173,4 +176,351 @@ button {
     padding: 5px 120px;
     text-align: center;
     color: #E5E7EB;
+}
+}
+
+
+/* ------- Media width between 900 and 600 -------------- */
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    
+    .up {
+        background-color: #1F2937;
+        
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        
+    }
+
+    .logo {
+        color: #F9FAF8;
+        font-size: 24px;
+        text-decoration: none;
+        padding: 10px 10%;
+        font-weight: bolder;
+    }
+
+    .header-links {
+        display: flex;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        color: #E5E7EB;
+        gap: 20px;
+        padding: 10px 10%;
+        font-size: 18px;
+    }
+
+    .upper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 10%;
+        padding-bottom: 60px;
+    }
+
+    .upper-left {
+        width: 50%;
+        padding-right: 5%;
+    }
+    .upper-right {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+    .upper .title {
+        font-size: 48px;
+        color: #F9FAF8;
+        margin: 0;
+    }
+
+    .upper .desc {
+        margin: 0;
+        color: #E5E7EB;
+    }
+
+    button {
+        padding: 8px 4px;
+        width: 90px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: none;
+        background: #3882F6;
+        color: white;
+    }
+
+    .upper-right img {
+        max-width: 100%;
+        height: 200px;
+        object-fit: cover;
+        float: right;
+
+    }
+
+    .upper-parts {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 10%;
+
+    }
+
+    .upper-parts h1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+    }
+
+    .cards {
+        column-count: 2;
+        width: 100%;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .cards img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3/2;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .quote {
+        background-color: #E5E7EB;
+    }
+
+    .quote {
+        font-size: 26px;
+        font-weight: lighter;
+        color: #1F2937;
+        margin: 0;
+        padding: 10% 20%;;
+    }
+
+    .quote .text {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+    }
+    .quote .author {
+        text-align: right;
+        font-size: 15px;
+        margin-top: 0;
+    }
+
+    .call-to-action {
+        padding: 60px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #3882F6;
+        padding: 10px 50px;
+        padding-right: 15%;
+        border-radius: 10px;
+        font-size: 15px;
+        color: #E5E7EB;
+    }
+
+    .call-to-action button {
+        border: 2px solid #E5E7EB;
+        height: 35px;
+        width: 100px;
+        padding: 0;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .call .title {
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+    .call .text {
+        margin-top: 0;
+        padding-left: 0;
+    }
+    .footer {
+        background-color: #1F2937;
+        padding: 2px 120px;
+        text-align: center;
+        color: #E5E7EB;
+    }
+    
+}
+
+/* ---------- Media width below 600 ---------------------- */
+
+@media (max-width: 600px) {
+
+    .up {
+        background-color: #1F2937;
+        
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+        
+    }
+
+    .logo {
+        color: #F9FAF8;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 10%;
+        font-weight: bolder;
+    }
+
+    .header-links {
+        display: flex;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        color: #E5E7EB;
+        gap: 20px;
+        padding: 10px 10%;
+        font-size: 12px;
+    }
+
+    .upper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10%;
+        padding-bottom: 60px;
+    }
+
+    .upper .title {
+        font-size: 48px;
+        color: #F9FAF8;
+        margin: 0;
+    }
+
+    .upper .desc {
+        margin: 0;
+        color: #E5E7EB;
+        padding-bottom: 2%;
+    }
+
+    button {
+        padding: 8px 4px;
+        width: 90px;
+        margin-top: 5px;
+        border-radius: 8px;
+        border: none;
+        background: #3882F6;
+        color: white;
+    }
+
+    .upper-right img {
+        display: none;
+    }
+
+    .upper-parts {
+        display: flex;
+        flex-direction: column;
+        padding: 1% 10%;
+
+    }
+
+    .upper-parts h1 {
+        text-align: center;
+        font-size: 26px;
+        font-weight: bolder;
+        color: #1F2937;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 15px;
+    }
+
+    .cards img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 3/2;
+        padding-bottom: 0;
+    }
+
+    .text {
+        text-align: center;
+        padding-top: 0;
+    }
+
+
+    .quote {
+        background-color: #E5E7EB;
+        font-size: 16px;
+        font-weight: lighter;
+        color: #1F2937;
+        margin: 0;
+        padding: 1% 10%;;
+    }
+
+    .quote .text {
+        margin-bottom: 0;
+        flex-wrap: wrap;
+    }
+    .quote .author {
+        text-align: right;
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .call-to-action {
+        padding: 30px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #3882F6;
+        padding: 3% 10px;
+        border-radius: 10px;
+        font-size: 15px;
+        color: #E5E7EB;
+    }
+
+    .call-to-action button {
+        border: 2px solid #E5E7EB;
+        height: 35px;
+        width: 60%;
+        padding: 0;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .call .title {
+        font-size: 20px;
+        font-weight: 900;
+        margin: 0 7px;
+    }
+
+    .call .text {
+        margin-top: 0;
+    }
+    .footer {
+        background-color: #1F2937;
+        padding: 2px 20px;
+        text-align: center;
+        color: #E5E7EB;
+        font-size: 12px;
+    }
 }
